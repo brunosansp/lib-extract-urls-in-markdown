@@ -1,9 +1,3 @@
-# lib-extract-urls-in-markdown
-Extração de links(URLs) que estejam em um arquivo de extensão Markdown(.md).
-
-# run in terminal
-node cli.js ./files/file1.md
-# Ex package.json:
 {
   "name": "lib-markdown",
   "version": "1.0.0",
@@ -14,7 +8,7 @@ node cli.js ./files/file1.md
     "cli": "node cli.js ./files/file1.md"
   },
   "keywords": [],
-  "author": "Bruno Santos",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -24,6 +18,3 @@ node cli.js ./files/file1.md
     "jest": "^28.1.1"
   }
 }
-
-# run in terminal with script in package.json
-npm run cli
